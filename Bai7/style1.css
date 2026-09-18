@@ -1,0 +1,50 @@
+body{
+    background-color: #1C1B20;
+    color:white;
+    margin:0;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    padding: 0 20px;
+    align-items: center;
+    background-color:black;
+}
+.danh-sach-muc{
+    list-style:none;
+    display:flex;
+    gap: 5px;
+    padding:0;
+}
+.lien-ket-muc{
+    text-decoration: none;
+    color: #BCBBBF;
+}
+.dang-chon{
+    background-color:black;
+    color:white;
+    border-bottom: 1px solid red;
+}
+.muc{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.logo{
+    width:10%;
+    height: 15%;
+}.avata{
+    width:40px;
+    border-radius: 10px;
+}
+.danh-muc-chinh{
+    background-color: blue;
+    width: 50%;
+    height: 50vh;
+    margin: 50px auto;
+}
+.danh-sach{
+    width: 95%;
+    height: 20vh;
+    margin: 20px auto;
+    background-color: orange;
+}
